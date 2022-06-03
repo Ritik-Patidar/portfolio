@@ -44,7 +44,7 @@ function AboutMe() {
 
 
                 <div className="my-4" >
-                    <a download href="%PUBLIC_URL%/Ritik's Resume.pdf" className="border text-sm md:text-lg border-primaryText rounded-lg px-4 py-4 text-primaryText bg-primaryText bg-opacity-10 hover:bg-opacity-30">Download Resume <i class="fa-solid fa-circle-arrow-down text-lg md:text-xl text-primaryText"></i></a>
+                    <a download href="/Ritik's Resume.pdf" className="border text-sm md:text-lg border-primaryText rounded-lg px-4 py-4 text-primaryText bg-primaryText bg-opacity-10 hover:bg-opacity-30">Download Resume <i class="fa-solid fa-circle-arrow-down text-lg md:text-xl text-primaryText"></i></a>
                 </div>
 
             </div>
