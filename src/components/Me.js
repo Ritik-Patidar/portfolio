@@ -8,7 +8,7 @@ function AboutMe() {
                 <div className="rounded-t-full shadow-lg shadow-gray-800 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out " style={{ background: "#24282e", borderBottomRightRadius: "500%", borderBottomLeftRadius: "500%" }} >
                     <div className="rounded-full" style={{ border: "20px solid #1e3d3b" }} >
                         <div className="rounded-full" style={{ border: "10px solid #24a78c" }} >
-                            <img className="h-48 w-48 md:h-60 md:w-60 rounded-full border-0" src="/me.jpg" alt="" />
+                            <img className="h-48 w-48 md:h-60 md:w-60 rounded-full border-0" src="../me.jpg" alt="" />
                         </div>
                     </div>
 
