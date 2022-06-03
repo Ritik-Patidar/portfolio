@@ -1,0 +1,13 @@
+.customScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  background: #323339;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background-color: #323339;
+  border-radius: 10px;
+  border: 4px solid #24282E;
+}
