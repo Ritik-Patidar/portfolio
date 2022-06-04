@@ -1,10 +1,11 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
+import resume from '../assets/document/Resume.pdf';
 
 function AboutMe() {
     return (
         <>
-            <div className="h-screen flex flex-col items-center justify-evenly" style={{ background: "#1E2225" }} >
+            <div id="aboutMe" className="h-screen flex flex-col items-center justify-evenly" style={{ background: "#1E2225" }} >
 
                 <div className="flex flex-col justify-center items-center" >
                     {/* <p className="text-3xl text-primaryText mt-12" >About Me</p> */}
@@ -13,7 +14,7 @@ function AboutMe() {
                     <span className="border-t-2 w-6  border-primaryText my-0.5" ></span>
                
                     <div className="w-full px-4 md:px-0 md:w-2/3 mt-8 md:mt-12 text-center" >
-                        <p className="text-xs md:text-base text-primaryText" >My name is Ritik Patidar and I am currently working as Software Developer Engineer at Springworks. I completed my degree in Bachelor of Technology in Computer Science and Engineering. I am much interested in developing new things which excite me a lot. :)</p><br />
+                        <p className="text-xs md:text-base text-primaryText" >My name is Ritik Patidar and I am currently working as Software Developer. I completed my degree in Bachelor of Technology in Computer Science and Engineering. I am much interested in developing new things which excite me a lot. :)</p><br />
                         <p className="text-xs md:text-base text-primaryText" >I love exploring new technologies and being a practitioner.</p>
                     </div>
                 </div>
@@ -24,19 +25,19 @@ function AboutMe() {
                     <span className="border-t-2 w-6  border-primaryText my-0.5" ></span>
 
                     <div className="flex justify-around py-6 w-full md:w-2/3">
-                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-blue-500 bg-opacity-10" >
-                            <i class="fa-solid fa-gamepad text-lg md:text-3xl text-blue-500"></i>
-                            <p className="text-blue-500 text-xs md:text-sm">Gaming</p>
+                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-color1 bg-opacity-10 shadow-sm shadow-color1" >
+                            <i className="fa-solid fa-gamepad text-lg md:text-3xl text-color1"></i>
+                            <p className="text-color1 text-xs md:text-sm">Gaming</p>
                         </div>
 
-                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-blue-500 bg-opacity-10" >
-                            <i class="fa-solid fa-headphones text-lg md:text-3xl text-blue-500"></i>
-                            <p className="text-blue-500 text-xs md:text-sm">Music</p>
+                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-color2 bg-opacity-10 shadow-sm shadow-color2" >
+                            <i className="fa-solid fa-headphones text-lg md:text-3xl text-color2"></i>
+                            <p className="text-color2 text-xs md:text-sm">Music</p>
                         </div>
 
-                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-blue-500 bg-opacity-10" >
-                            <i class="fa-solid fa-mug-saucer text-lg md:text-3xl text-blue-500"></i>
-                            <p className="text-blue-500 text-xs md:text-sm">Coffee</p>
+                        <div className="w-20 h-20 rounded-lg flex flex-col  justify-center items-center bg-color4 bg-opacity-10 shadow-sm shadow-color4" >
+                            <i className="fa-solid fa-mug-saucer text-lg md:text-3xl text-color4"></i>
+                            <p className="text-color4 text-xs md:text-sm">Coffee</p>
                         </div>
 
                     </div>
@@ -44,7 +45,7 @@ function AboutMe() {
 
 
                 <div className="my-4" >
-                    <a download href="/Ritik's Resume.pdf" className="border text-sm md:text-lg border-primaryText rounded-lg px-4 py-4 text-primaryText bg-primaryText bg-opacity-10 hover:bg-opacity-30">Download Resume <i class="fa-solid fa-circle-arrow-down text-lg md:text-xl text-primaryText"></i></a>
+                    <a download href={resume} className="border text-sm md:text-lg border-primaryText rounded-lg px-4 py-4 text-primaryText bg-primaryText bg-opacity-10 hover:bg-opacity-30">Download Resume <i className="fa-solid fa-circle-arrow-down text-lg md:text-xl text-primaryText"></i></a>
                 </div>
 
             </div>
