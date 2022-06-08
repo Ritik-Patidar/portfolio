@@ -1,22 +1,18 @@
 import './App.scss';
-import React, {useRef} from 'react'
+import React from 'react';
 import styleScroll from "./scrollbar.module.css";
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Me from './components/Me';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills'
 
 function App() {
 
-    // const refToAboutMe = useRef(null)
-
-    // const executeScroll = () => refToAboutMe.current.scrollIntoView() 
-
     return (
         <div className="h-screen overflow-hidden">
             <div className={`h-full ${styleScroll.customScroll} overflow-y-scroll`}>
                 {/* <Navbar /> */}
-                <div className="bg-primary">
+                <div className="bg-white dark:bg-primary">
                     <Me />
                     <AboutMe />
                     <Skills />

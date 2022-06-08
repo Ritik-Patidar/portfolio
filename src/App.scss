@@ -143,3 +143,111 @@ html {
 		height: 40px;
 	}
 }
+
+.container {
+// 	position: relative;
+// 	width: 100vw;
+// 	height: 100vh;
+// 	background-color: #fff;
+// 	overflow: hidden;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+	transition: background-color .8s;
+  }
+
+.content {
+  display: flex;
+  flex-direction: column;
+//   margin: auto;
+  text-align: center;
+  transform: translateY(5%);
+}
+.circle {
+  position: relative;
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+  background: linear-gradient(40deg, #FF0080,#FF8C00 70%);
+  margin: auto;
+}
+.crescent {
+  position: absolute;
+  border-radius: 100%;  
+  right: 0;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: '#0D2627';
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform .6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+label, .toggle {
+  height: 2rem;
+  border-radius: 100px;
+}
+label {
+  width: 100%;
+  background-color: #26242E;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+}
+.toggle {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 15px '#26242E';
+  transition: transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  border-radius: 100%;
+  background: linear-gradient(40deg, #FF0080,#FF8C00 70%);
+}
+.names {
+  font-size: 90%;
+  font-weight: bolder;
+  width: 65%;
+  margin-left: 17.5%;
+  margin-top: .5%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.mark::before {
+  content: '';
+  position: absolute;
+  width: .25rem;
+  height: 100%;
+  left: -70%;
+  opacity: .15;
+  background-color: inherit;
+}
+.mark::after {
+  content: '';
+  position: absolute;
+  width: .25rem;
+  height: 100%;
+  right: -70%;
+  opacity: .15;
+  background-color: inherit;
+}
+
+
+[type="checkbox"] {
+	display: none;
+  }
+  /* Toggle */
+  [type="checkbox"]:checked + .container .toggle{
+	transform: translateX(100%);
+	background: linear-gradient(40deg, #8983F7, #A3DAFB 70%);
+	background-color: #34323D;
+  }
+  /* Circle */
+  [type="checkbox"]:checked + .container .crescent{
+	transform: scale(1);
+	background: #26242E;
+  }
+ 
+
