@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f6c0bad3.css",
-    "main.js": "/portfolio/static/js/main.a53d716a.js",
+    "main.css": "/portfolio/static/css/main.63c7ec91.css",
+    "main.js": "/portfolio/static/js/main.f3490acb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.jpg": "/portfolio/static/media/me.68564d404ceb7ec37c94.jpg",
     "static/media/coffee-apple.jpg": "/portfolio/static/media/coffee-apple.a0c19713a15fff3f3cff.jpg",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.60484653ceb592b11af1.pdf",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.60dbf4bfe24ad3474b5a.pdf",
     "static/media/Quantum.otf": "/portfolio/static/media/Quantum.ab22dee95cbffcc89a87.otf",
     "static/media/Azonix.otf": "/portfolio/static/media/Azonix.9091792cb1720a8c6ea0.otf",
     "static/media/node.svg": "/portfolio/static/media/node.b7d2308b16bd82b67987d0d1682f8e6b.svg",
@@ -20,12 +20,12 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
     "static/media/css.svg": "/portfolio/static/media/css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html.svg": "/portfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.f6c0bad3.css.map": "/portfolio/static/css/main.f6c0bad3.css.map",
-    "main.a53d716a.js.map": "/portfolio/static/js/main.a53d716a.js.map",
+    "main.63c7ec91.css.map": "/portfolio/static/css/main.63c7ec91.css.map",
+    "main.f3490acb.js.map": "/portfolio/static/js/main.f3490acb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c0bad3.css",
-    "static/js/main.a53d716a.js"
+    "static/css/main.63c7ec91.css",
+    "static/js/main.f3490acb.js"
   ]
 }
