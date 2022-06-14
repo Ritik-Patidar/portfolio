@@ -12,7 +12,7 @@ function App() {
         <div className="h-screen overflow-hidden">
             <div className={`h-full ${styleScroll.customScroll} overflow-y-scroll`}>
                 {/* <Navbar /> */}
-                <div className="bg-white dark:bg-primary">
+                <div className="">
                     <Me />
                     <AboutMe />
                     <Skills />

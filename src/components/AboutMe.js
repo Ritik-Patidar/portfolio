@@ -5,16 +5,16 @@ import resume from '../assets/document/Resume.pdf';
 function AboutMe() {
     return (
         <>
-            <div id="aboutMe" className="bg-white dark:text-primaryText text-primaryTextDark dark:bg-primary h-screen flex flex-col items-center justify-evenly">
+            <div id="aboutMe" className="bg-primaryLight dark:text-primaryText text-primaryTextDark dark:bg-primary h-screen flex flex-col items-center justify-evenly">
 
                 <div className="flex flex-col justify-center items-center" >
                     {/* <p className="text-3xl text-primaryText mt-12" >About Me</p> */}
                     <p className="text-lg md:text-3xl dark:text-primaryText text-primaryTextDark mt-4 font-bold" >WHO AM I?</p>
                     <span className="border-t-2 w-20 dark:border-primaryText border-primaryTextDark my-0.5 " ></span>
                     <span className="border-t-2 w-6  dark:border-primaryText border-primaryTextDark my-0.5" ></span>
-               
+
                     <div className="w-full px-4 md:px-0 md:w-2/3 mt-8 md:mt-12 text-center" >
-                        <p className="text-xs md:text-base dark:text-primaryText text-primaryTextDark" >My name is Ritik Patidar and I am currently working as Software Developer. I completed my degree in Bachelor of Technology in Computer Science and Engineering. I am much interested in developing new things which excite me a lot. :)</p><br />
+                        <p className="text-xs md:text-base dark:text-primaryText text-primaryTextDark" >My name is Ritik Patidar and I am currently working as Software Developer. I completed my degree in Bachelor of Technology in Computer Science and Engineering. I am much interested in developing new things which excite me a lot.</p><br />
                         <p className="text-xs md:text-base dark:text-primaryText text-primaryTextDark" >I love exploring new technologies and being a practitioner.</p>
                     </div>
                 </div>
