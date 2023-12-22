@@ -19,7 +19,7 @@ export const aboutData = {
     'I am a Computer Science Engineering graduate, currently working as a Full Stack Developer. I am much interested in developing new things which excite me a lot.',
   paragraphTwo: 'I love exploring new technologies and being a practitioner.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1EbzUAqOCRB89yMrrA-g9MeVEx_rmjOVS/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1HUOZq-Blh5sA6Mseo3t4Zdp_i5VEnH7f/view?usp=drivesdk',
   // resume: 'https://www.dropbox.com/scl/fi/qh3xzt432p3algjuqf7j6/Ritik_Resume.pdf?rlkey=c3pgv0ug68g3yz8jct8amh9cx&dl=0',
 };
 
