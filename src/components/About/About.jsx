@@ -4,10 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import { useExperience } from '../../hooks/useExperience';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, careerStartDate } = about;
+
+  const { replacedExpString } = useExperience(paragraphOne, careerStartDate);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -41,7 +44,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+                <p className="about-wrapper__info-text">{replacedExpString || ''}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
                 <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (

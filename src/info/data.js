@@ -16,11 +16,13 @@ export const heroData = {
 export const aboutData = {
   img: 'me.jpg',
   paragraphOne:
-    'I am a Computer Science Engineering graduate, currently working as a Full Stack Developer. I am much interested in developing new things which excite me a lot.',
-  paragraphTwo: 'I love exploring new technologies and being a practitioner.',
-  paragraphThree: '',
+    'With {{years}} and {{months}} of experience as a Full-Stack Web developer specializing in the MERN stack, I have honed my skills in developing robust and scalable applications.',
+  paragraphTwo: 'My expertise includes designing and developing REST APIs, creating dynamic user interfaces, and managing databases using MongoDB.',
+  paragraphThree: 'I am passionate about writing clean, modular, and reusable code, and I am constantly learning and implementing new technologies to stay ahead of the curve.',
   resume: 'https://drive.google.com/file/d/1HUOZq-Blh5sA6Mseo3t4Zdp_i5VEnH7f/view?usp=drivesdk',
   // resume: 'https://www.dropbox.com/scl/fi/qh3xzt432p3algjuqf7j6/Ritik_Resume.pdf?rlkey=c3pgv0ug68g3yz8jct8amh9cx&dl=0',
+  //!    MM/DD/YYYY  - do not change the format  
+  careerStartDate: '01/06/2021'
 };
 
 export const skillsData = [
