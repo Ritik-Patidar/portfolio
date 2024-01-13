@@ -129,7 +129,7 @@ export const experienceData = [
     company_name: 'Rudiment Webtech Solution, Indore',
     icon: 'experience/coverhunt.png',
     iconBg: '#333333',
-    date: 'Jun 2021 - Dec 2022',
+    date: 'Jun 2021 - Dec 2021',
   },
   {
     title: 'Product Engineer',
