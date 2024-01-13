@@ -10,9 +10,7 @@ const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume, careerStartDate } = about;
 
-  const { experience, replacedExpString } = useExperience(paragraphOne, careerStartDate);
-  console.log('file: About.jsx:14 ~ replacedExpString:', replacedExpString);
-  console.log('file: About.jsx:14 ~ experience:', experience);
+  const { replacedExpString } = useExperience(paragraphOne, careerStartDate);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
