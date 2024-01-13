@@ -9,7 +9,7 @@ const Title = ({ title , p = '' }) => (
 );
 
 Title.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   p: PropTypes.string,
 };
 
