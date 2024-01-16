@@ -22,7 +22,7 @@ export const aboutData = {
   resume: 'https://drive.google.com/file/d/1HUOZq-Blh5sA6Mseo3t4Zdp_i5VEnH7f/view?usp=drivesdk',
   // resume: 'https://www.dropbox.com/scl/fi/qh3xzt432p3algjuqf7j6/Ritik_Resume.pdf?rlkey=c3pgv0ug68g3yz8jct8amh9cx&dl=0',
   //!    MM/DD/YYYY  - do not change the format  
-  careerStartDate: '06/01/2021'
+  careerStartDate: '01/01/2021'
 };
 
 export const skillsData = [
@@ -127,11 +127,11 @@ export const skillsData = [
 // EXPERIENCE DATA
 export const experienceData = [
   {
-    title: 'Web Developer',
-    company_name: 'Rudiment Webtech Solution, Indore',
-    icon: 'experience/coverhunt.png',
+    title: 'Software Developer',
+    company_name: 'Mencoweb Technologies, Indore',
+    icon: 'experience/mencoweb.png',
     iconBg: '#333333',
-    date: 'Jun 2021 - Dec 2021',
+    date: 'Jan 2021 - Dec 2021',
   },
   {
     title: 'Product Engineer',
